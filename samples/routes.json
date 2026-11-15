@@ -1,0 +1,13 @@
+[
+  {
+    "route_id": "R-AXLE",
+    "revision": 1,
+    "operations": ["OP10", "OP20", "OP30", "OP40"],
+    "delivery_operations": ["OP30", "OP40"],
+    "prereq_groups": {
+      "OP20": [["OP10"]],
+      "OP30": [["OP20"]],
+      "OP40": [["OP20"], ["OP30"]]
+    }
+  }
+]

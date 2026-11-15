@@ -1,0 +1,57 @@
+[
+  {
+    "evidence_id": "EV-001",
+    "wo_id": "WO-2026-001",
+    "part": "P-001",
+    "operation": "OP10",
+    "attempt": 1,
+    "executed_at": "2026-02-01T08:00:00Z",
+    "passed": true,
+    "equipment": ["EQ-LATHE-1"],
+    "prereq_refs": {}
+  },
+  {
+    "evidence_id": "EV-002",
+    "wo_id": "WO-2026-001",
+    "part": "P-001",
+    "operation": "OP20",
+    "attempt": 1,
+    "executed_at": "2026-02-02T08:00:00Z",
+    "passed": true,
+    "equipment": [],
+    "prereq_refs": {"0": "EV-001"}
+  },
+  {
+    "evidence_id": "EV-003",
+    "wo_id": "WO-2026-001",
+    "part": "P-001",
+    "operation": "OP30",
+    "attempt": 1,
+    "executed_at": "2026-02-03T08:00:00Z",
+    "passed": true,
+    "equipment": ["EQ-CMM-1"],
+    "prereq_refs": {"0": "EV-002"}
+  },
+  {
+    "evidence_id": "EV-004",
+    "wo_id": "WO-2026-001",
+    "part": "P-001",
+    "operation": "OP40",
+    "attempt": 1,
+    "executed_at": "2026-02-04T08:00:00Z",
+    "passed": true,
+    "equipment": ["EQ-CMM-1"],
+    "prereq_refs": {"0": "EV-002", "1": "EV-003"}
+  },
+  {
+    "evidence_id": "EV-101",
+    "wo_id": "WO-2026-001",
+    "part": "P-002",
+    "operation": "OP10",
+    "attempt": 1,
+    "executed_at": "2026-02-01T09:00:00Z",
+    "passed": true,
+    "equipment": ["EQ-LATHE-1"],
+    "prereq_refs": {}
+  }
+]

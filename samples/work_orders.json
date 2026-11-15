@@ -1,0 +1,8 @@
+[
+  {
+    "wo_id": "WO-2026-001",
+    "route_id": "R-AXLE",
+    "route_revision": 1,
+    "parts": ["P-001", "P-002"]
+  }
+]

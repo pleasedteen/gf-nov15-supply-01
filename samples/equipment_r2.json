@@ -1,0 +1,9 @@
+[
+  {
+    "equipment_id": "EQ-CMM-1",
+    "revision": 2,
+    "periods": [
+      {"start": "2026-01-01T00:00:00Z", "end": "2027-06-01T00:00:00Z"}
+    ]
+  }
+]
